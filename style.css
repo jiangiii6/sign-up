@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 63rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+.file {
+    margin-top: 2rem;
+    font-size: xx-large;
+    text-align: center;
+}
+
+form {
+    /* text-align: center; */
+    padding: 1rem 15rem 5rem 15rem;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row .input-container {
+    width: 50%;
+
+}
+
+.form-row .btn-container {
+    width: 50%;
+
+}
+
+.input-container {
+    padding: 0 0.6rem;
+}
+
+.btn-container {
+    padding: 0 0.6rem;
+}
+
+.form-line {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-line2 {
+    margin-bottom: 1.5rem;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    font-size: large;
+}
+
+/* form input {
+    padding-left: 1.9rem;
+
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 27.9rem;
+    height: 5.6rem;
+    position: relative;
+} */
+
+
+/* #form input[type='text']:focus,
+input[type='email']:focus {
+    border-color: red;
+    /* box-shadow: #888888; */
+
+
+
+#form input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #0073cf;
+}
+
+
+label {
+    font-weight: Bold;
+    margin-left: 1rem;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -2rem;
+    margin-top: 23px;
+}
+
+.mark {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-right: 5.5rem;
+}
+
+#check {
+    width: auto;
+}
+
+/* .info{
+    margin-left:3rem;
+    display: inline;
+   
+} */
+.symbol {
+    background-color: #0073cf;
+    color: white;
+    border-radius: 3px;
+    padding: 0.1rem 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#register-btn {
+    background-color: #0073cf;
+    color: white;
+
+}
+
+#sign-in-btn {
+    background-color: #53b853;
+    color: white;
+
+}
+
+@media only screen and (min-width: 791px)and (max-width:993px) {
+    .container {
+        max-width: 50rem;
+    }
+
+    form {
+        padding: 1rem 10rem 5rem 10rem;
+    }
+
+    .mark {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (min-width: 375px)and (max-width:790px) {
+    .container {
+        font-size: medium;
+        max-width: 30rem;
+    }
+
+    form {
+
+        padding: 2rem 3rem 5rem 3rem;
+
+    }
+
+    form input {
+        font-size: small;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    label {
+        font-size: small;
+    }
+
+    .mark {
+        width: 90%;
+    }
+}
