@@ -104,8 +104,7 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: -2rem;
-    margin-top: 23px;
+    margin-top: 1.5rem;
 }
 
 .mark {
@@ -114,18 +113,18 @@ label {
     align-items: center;
     justify-content: center;
     width: 30%;
-    margin-right: 5.5rem;
+    margin-left: 0.8rem;
 }
 
 #check {
     width: auto;
 }
 
-/* .info{
+.info{
     margin-left:3rem;
-    display: inline;
    
-} */
+   
+} 
 .symbol {
     background-color: #0073cf;
     color: white;
@@ -190,5 +189,6 @@ a {
 
     .mark {
         width: 90%;
+        margin-left: -1rem;
     }
 }
